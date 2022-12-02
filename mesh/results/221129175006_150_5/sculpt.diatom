@@ -1,0 +1,25 @@
+
+  diatoms
+
+    package 'Volume_1'
+      material 1
+      insert stl
+        FILE = '../../input/rve-1.stl'
+      endinsert
+    endp
+
+    package 'Volume_2'
+      material 2
+      insert stl
+        FILE = '../../input/rve-2.stl'
+      endinsert
+    endp
+
+    package 'Volume_3'
+      material 3
+      insert stl
+        FILE = '../../input/rve-3.stl'
+      endinsert
+    endp
+
+  enddia
